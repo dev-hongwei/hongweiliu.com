@@ -1,0 +1,44 @@
+{
+  "name": "hongweiliu.com",
+  "private": true,
+  "description": "Hongwei Liu's personal website.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "@emotion/core": "^11.0.0",
+    "@emotion/react": "^11.6.0",
+    "gatsby": "^4.2.0",
+    "gatsby-plugin-emotion": "^7.2.0",
+    "gatsby-plugin-manifest": "^4.2.0",
+    "gatsby-plugin-offline": "^5.2.0",
+    "gatsby-plugin-react-helmet": "^5.2.0",
+    "gatsby-plugin-typography": "^4.2.0",
+    "gatsby-source-filesystem": "^4.2.0",
+    "gatsby-transformer-remark": "^5.2.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-typography": "^0.16.20",
+    "typography": "^0.16.21",
+    "typography-theme-fairy-gates": "^0.16.19",
+    "typography-theme-kirkham": "^0.16.19"
+  },
+  "devDependencies": {
+    "prettier": "^2.4.1"
+  },
+  "repository": "https://github.com/dev-hongwei/hongweiliu.com",
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "main": "src/pages/index.js",
+  "author": "Hongwei Liu"
+}
