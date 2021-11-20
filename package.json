@@ -1,11 +1,11 @@
 {
   "name": "hongweiliu.com",
-  "private": true,
-  "description": "Hongwei Liu's personal website.",
-  "version": "0.1.0",
+  "description": "Hongwei Liu's personal blog website.",
+  "version": "0.0.1",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
+    "dev": "gatsby develop",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "gatsby develop",
@@ -36,9 +36,19 @@
     "prettier": "^2.4.1"
   },
   "repository": "https://github.com/dev-hongwei/hongweiliu.com",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
-  "main": "src/pages/index.js",
-  "author": "Hongwei Liu"
+  "main": "n/a",
+  "author": "Hongwei Liu",
+  "keywords": [
+    "hongwei",
+    "hongwei liu",
+    "liu hongwei",
+    "developer",
+    "development",
+    "dev",
+    "tutorials",
+    "tech",
+    "post",
+    "article",
+    "blog"
+  ]
 }
